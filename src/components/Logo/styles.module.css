@@ -12,12 +12,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.4rem;
   font-size: 4.2rem;
   font-weight: bold;
   text-decoration: none;
   color: var(--primary);
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
 }
 
 .logoLink:hover {
