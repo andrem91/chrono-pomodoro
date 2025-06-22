@@ -1,10 +1,10 @@
 import styles from './styles.module.css';
-type DefaltInputProps = {
+type DefaultInputProps = {
   id: string;
-  labelText?: string;
+  labelText: string;
 } & React.ComponentProps<'input'>;
 
-export function DefaltInput({ id, type, labelText, ...rest }: DefaltInputProps) {
+export function DefaultInput({ id, type, labelText, ...rest }: DefaultInputProps) {
   return (
     <>
       <label htmlFor={id}>{labelText}</label>
